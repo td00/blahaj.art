@@ -1,0 +1,27 @@
+name: Delete Blåhaj
+description: Delete a Blåhaj from here
+title: "[DELETE]: "
+labels: [request, delete]
+assignees:
+  - td00
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your request. Please allow a few days for an answer!
+  - type: input
+    id: filename
+    attributes:
+      label: Filename
+      description: The filename for the image in question (including extension)
+      placeholder: sweetblahaj.png
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirm Ownership
+      description: By submitting this request, you confirm, that you're the original owner of this image and want it removed. I have proof, that I own the rights to the image and I'm willing to produce the image to confirm this.
+      options:
+        - label: I confirm the ownership.
+          required: true

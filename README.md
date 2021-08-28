@@ -9,7 +9,7 @@ https://blåhaj.art
 - Wait.
 
 ## I dont want to create a pull request.
-- Okay. Use "new Blåhaj" Issue type.
+- Okay. Then don't.
 
 # There is a picture I don't want to see on the internet.
 - Okay. Use "delete Blåhaj" Issue type, or write a mail to no [at] blåhaj [dot] art / no [at] blahaj[dot]art

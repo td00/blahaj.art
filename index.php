@@ -31,3 +31,6 @@
 ?>
 
 <img src="<?php echo $dir."/".$random_img ?>">
+
+<a href="/"><button>Refresh</button></a><br /><br />
+<a href="https://github.com/td00/blahaj.art"><button>Contribute</button></a>

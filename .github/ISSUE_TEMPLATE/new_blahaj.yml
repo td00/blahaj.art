@@ -17,11 +17,6 @@ body:
       placeholder: sweetblahaj.png
     validations:
       required: false
-  - type: upload
-      id: imagefile
-    attributes:
-      label: The image
-      description: Upload your image here.
   - type: checkboxes
     id: terms
     attributes:

@@ -1,0 +1,32 @@
+name: New Blåhaj
+description: File a bug report
+title: "[NEW]: "
+labels: [new, blahaj]
+assignees:
+  - td00
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding a new Blåhaj!
+  - type: input
+    id: filename
+    attributes:
+      label: Filename
+      description: The filename for the image
+      placeholder: sweetblahaj.png
+    validations:
+      required: false
+  - type: upload
+      id: imagefile
+    attributes:
+      label: The image
+      description: Upload your image here.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirm Ownership
+      description: By submitting this image, you confirm, that you've the right to add this picture to the repo.
+      options:
+        - label: I confirm the ownership.
+          required: true

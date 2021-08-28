@@ -17,7 +17,7 @@
         // Get extension
         $ext = pathinfo($file_path, PATHINFO_EXTENSION);
 
-        if ($ext=="jpg" || $ext=="png" || $ext=="JPG" || $ext=="PNG") {
+        if ($ext=="jpg" || $ext=="png" || $ext=="JPG" || $ext=="PNG" || $ext=="jpeg" || $ext=="JPEG") {
           array_push($imgs_arr, $file);
         }
         

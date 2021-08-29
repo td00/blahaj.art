@@ -4,7 +4,7 @@ https://blåhaj.art
 # How to add your Blåhaj?
 
 - Fork this repository.
-- Add your image. Give it a unique name!
+- Add your image to `/images/`. **Give it a unique name!**
 - Create a pullrequest.
 - Wait.
 

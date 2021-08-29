@@ -29,8 +29,6 @@
   }
 
 ?>
-
+<a href="/"><button>Refresh</button></a><br />
+<a href="https://github.com/td00/blahaj.art"><button>Contribute</button></a><br />
 <img src="<?php echo $dir."/".$random_img ?>">
-<br />
-<a href="/"><button>Refresh</button></a><br /><br />
-<a href="https://github.com/td00/blahaj.art"><button>Contribute</button></a>

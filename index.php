@@ -40,7 +40,7 @@
 
     </head>
     <body>
-    <a href="/"><button>Refresh</button></a>     <a href="https://github.com/td00/blahaj.art"><button>Contribute</button></a><br />
+    <a href="/"><button>Refresh</button></a>     <a href="https://github.com/td00/blahaj.art"><button>Contribute</button></a><br />   <a>Every refresh a random Blåhaj.</a>
 <img src="<?php echo $dir."/".$random_img ?>">
 
 <br />

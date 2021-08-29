@@ -1,34 +1,3 @@
-<?php
-
-  $dir = 'images';
-  // Initiate array which will contain the image name
-  $imgs_arr = array();
-
-  // Check if image directory exists
-  if (file_exists($dir) && is_dir($dir) ) {
-    
-      // Get files from the directory
-      $dir_arr = scandir($dir);
-      $arr_files = array_diff($dir_arr, array('.','..') );
-
-      foreach ($arr_files as $file) {
-        //Get the file path
-        $file_path = $dir."/".$file;
-        // Get extension
-        $ext = pathinfo($file_path, PATHINFO_EXTENSION);
-
-        if ($ext=="jpg" || $ext=="png" || $ext=="JPG" || $ext=="PNG" || $ext=="jpeg" || $ext=="JPEG") {
-          array_push($imgs_arr, $file);
-        }
-        
-      }
-
-      $count_img_index = count($imgs_arr) - 1;
-      $random_img = $imgs_arr[rand( 0, $count_img_index )];
-
-  }
-
-?>
 <html>
     <head>
         <title>Blåhaj</title>
@@ -40,13 +9,16 @@
 
     </head>
     <body>
-    <a href="/"><button>Refresh</button></a>     <a href="https://github.com/td00/blahaj.art"><button>Contribute</button></a><br />   <a>Every refresh a random Blåhaj.</a>
-<img src="<?php echo $dir."/".$random_img ?>">
+    <button id="refreshBtn">Refresh</button>     <a href="https://github.com/td00/blahaj.art"><button>Contribute</button></a><br />   <a>Every refresh a random Blåhaj.</a>
+<img id="randImg" src="blahaj.php">
 
 <br />
 <br />
 <a href="https://thiesmueller.de">Contact me</a>
 <br />
 <a href="https://github.com/td00/blahaj.art">GitHub Project</a>
-    </body>
+
+    <script src="blahaj.js"></script>
+
+  </body>
 </html>

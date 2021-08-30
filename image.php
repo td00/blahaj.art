@@ -29,4 +29,4 @@
   }
 
 ?>
-<img src="<?php echo $dir."/".$random_img ?>">
+<img height="100%" src="<?php echo $dir."/".$random_img ?>">

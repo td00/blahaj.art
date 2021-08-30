@@ -29,5 +29,4 @@
   }
 
 ?>
-<a href="/<?php echo $dir."/".$random_img ?>">Open Image directly</a>
-<img width="100%" height="100%" src="<?php echo $dir."/".$random_img ?>">
+<img src="<?php echo $dir."/".$random_img ?>">

@@ -1,7 +1,7 @@
 name: Delete Blåhaj
 description: Delete a Blåhaj from here
 title: "[DELETE]: "
-labels: [delete]
+labels: [delete_request]
 assignees:
   - td00
 body:
